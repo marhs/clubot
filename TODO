@@ -1,0 +1,6 @@
+TODO List
+
+Export alerts and messages to a log file, not in console. 
+Allow other files (not imgs) in the folder, and skip them. At this moment,
+Clubot freezes if he find a no-img file. 
+
