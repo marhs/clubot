@@ -66,12 +66,12 @@ def post(subreddit):
 
 def main():
 
-    p = post('reddit_api_test')
+    p = post(subreddit)
 
     if not p:
         logging.info('Error posting')
     else:
-        logging.info("New submission at TemplePorn with id: " + p.id)
+        logging.info("New submission at " + subreddit + " with id: " + p.id)
     logging.info('Waiting 1 day for next submission')
     sleep(86400)
 main()
